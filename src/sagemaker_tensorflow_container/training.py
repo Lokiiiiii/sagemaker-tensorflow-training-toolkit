@@ -177,7 +177,6 @@ def train(env, cmd_args):
         tf_config = _build_tf_config_for_mwm(hosts=env.hosts, current_host=env.current_host)
         logger.info("Running distributed training job with multi_worker_mirrored setup")
 
-
     # Run
     if parameter_server_enabled:
 
